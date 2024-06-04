@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/wesleytj/social-links-profile)
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [Vercel](https://vercel.com/wesley-treib-jacques-projects/social-links-profile)
 
 ## My process
 
