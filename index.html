@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @font-face {
+        font-family: fontRegular;
+        src: url(./assets/fonts/static/Inter-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: fontSemiBold;
+        src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+      }
+
+      @font-face {
+        font-family: fontBold;
+        src: url(./assets/fonts/static/Inter-Bold.ttf);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: fontRegular;
+        color: hsl(0, 0%, 80%);
+      }
+
+      section{
+        max-width: 1440px;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(0, 0%, 8%);
+      }
+
+      .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        border-radius: 10px;
+        padding: 40px;
+        background-color: hsl(0, 0%, 12%);
+      }
+
+      .img__profile{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url("assets/images/avatar-jessica.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .description h2{
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+
+      .description h4{
+        font-size: 14px;
+        color: hsl(75, 94%, 57%);
+      }
+
+      .description p{
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      
+      .links__profile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .links__profile p{
+        padding: 15px 0;
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 20%);
+        cursor: pointer;
+        font-family: fontSemiBold;
+        font-size: 14px;
+      }
+      
+      .links__profile p:hover{
+        color: hsl(0, 0%, 12%);
+        background-color: hsl(75, 94%, 57%);
+      }
+      
+      .attribution {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 11px;
+        text-align: center;
+        background-color: hsl(0, 0%, 8%);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="img__profile"></div><!--img__profile-->
+        <div class="description">
+          <h2>Jessica Randall</h2>
+          <h4 class>London, United Kingdom</h4>
+          
+          <p>"Front-end developer and avid reader."</p>
+        </div><!--description-->
+
+        <div class="links__profile">
+          <p>GitHub</p>
+          <p>Frontend Mentor</p>
+          <p>LinkedIn</p>
+          <p>Twitter</p>
+          <p>Instagram</p>
+        </div><!--links__profile-->
+      </div><!--card-->
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Wesley Treib Jacques</a>.
+    </div>
+    <div style="clear: both;"></div>
+  </body>
+</html>
